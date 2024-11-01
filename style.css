@@ -1,0 +1,89 @@
+/* Colors and Fonts*/
+
+body{
+color: #000000;
+text-align: center;
+}
+
+h1 {
+font-family: Helvetica;
+font-weight: 500;
+font-size: 60px;
+text-align: center;
+}
+
+h2 {
+font-family: Arial;	
+font-size: 30px;
+text-align: center;
+}
+
+p {
+font-family: Arial;
+text-align: center;
+}
+
+a {
+text-decoration: none;
+color: #FFFFFF;
+font-family: Arial;
+font-weight: bold;
+text-align: center;
+background-color: #7E60BF;
+padding: 15px 20px;
+border-radius: 5px;
+}
+
+a:hover {
+background-color: black;
+color: white;
+}
+
+#profilepicture {
+border-radius: 50%;
+width: 200px;
+box-shadow: 0px 0px 15px black 
+}
+
+div {
+background: transparent;
+padding: 60px;
+margin: 50px;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+li {
+list-style: none;
+padding-left: 0px;
+display: inline;
+padding: 10px;
+}
+
+
+#introduction p {
+margin-bottom: 40px;
+}
+
+.container {
+	width: 1400px;
+	margin: 0px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+img {
+	border-radius: 500px;
+	width: 200px;
+}
+
